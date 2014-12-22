@@ -1,0 +1,24 @@
+{
+  "name": "jrs",
+  "version": "1.0.0",
+  "description": "A wrapper library to handle jackrabbit jobs via emit emitter pattern.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test"
+  },
+  "keywords": [
+    "MicroServices"
+  ],
+  "author": "Tom",
+  "license": "MIT",
+  "dependencies": {
+    "highland": "^2.2.0",
+    "jackrabbit": "^3.0.8"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13"
+  }
+}
